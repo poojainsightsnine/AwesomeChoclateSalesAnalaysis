@@ -11,9 +11,9 @@ The data was imported into SQL for query analysis and used directly in Power BI 
       3.Products---PID,Product, Category, Size,Cost_per_box
       4.Sales--SPID, GeoID,PID ,SaleDate,Amount ,Customers,Boxes 
 
-****Part 1 — SQL Analysis ** **
+**Part 1 — SQL Analysis**
 
-                                      _Key Questions Explored  _
+                                                  _Key Questions Explored  _
 
 | Question | What It Reveals | SQL Concepts Used |
 |-----------|----------------|-------------------|
@@ -26,7 +26,8 @@ The data was imported into SQL for query analysis and used directly in Power BI 
 | How often did we ship more than 1000 boxes per month? | Shipment volume trend | `YEAR()`, `MONTH()`, `COUNT()` |
 
 
-**Part 2 — Power BI Dashboard (AwesomeDashboard.pbix)**
+**Part 2 — Power BI Dashboard (AwesomeDashboard.pbix)**  
+
 The Power BI dashboard provides a clear, data-driven view of Awesome Chocolates’ sales operations.
 It highlights how products, sales teams, and regions contribute to overall revenue, helping leaders make informed decisions based on real performance patterns.
 Key Insights
