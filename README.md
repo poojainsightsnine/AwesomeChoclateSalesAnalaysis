@@ -1,16 +1,17 @@
 # AwesomeChocolateSalesAnalaysis
 This project analyzes the sales performance of Awesome Chocolates, focusing on key metrics such as total sales, shipment count, box volume, and performance by salesperson, product, and region.
 Using SQL for data exploration and Power BI for visualization, the project highlights trends, top-performing products, and shipment behaviors across different time periods — helping uncover what drives sales success and where opportunities lie.
-Data Sources
+
+**Data Sources**
 Both the SQL analysis and Power BI dashboard are based on the same dataset, provided as CSV files.
 The data was imported into SQL for query analysis and used directly in Power BI for visualization.
-  1.Geo---GeoID,Geo,Region
-  2.People---Salesperson,SPID,Team,Location
-  3.Products---PID,Product, Category, Size,Cost_per_box
-  4.Sales--SPID, GeoID,PID ,SaleDate,Amount ,Customers,Boxes
+      1.Geo---GeoID,Geo,Region
+      2.People---Salesperson,SPID,Team,Location
+      3.Products---PID,Product, Category, Size,Cost_per_box
+      4.Sales--SPID, GeoID,PID ,SaleDate,Amount ,Customers,Boxes
 **Part 1 — SQL Analysis**
-------Key Questions Explored-----
-Question	What It Reveals	SQL Concepts Used
+**------Key Questions Explored-----**
+What It Reveals	SQL Concepts Used
   Which salespeople had at least one shipment?	
   SQL-Concept-Used---IN, EXISTS, JOIN
 How many shipments did each salesperson make on Mondays?	
