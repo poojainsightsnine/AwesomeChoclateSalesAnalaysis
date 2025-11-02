@@ -11,26 +11,27 @@ The data was imported into SQL for query analysis and used directly in Power BI 
 **Part 1 — SQL Analysis**
 ------Key Questions Explored-----
 Question	What It Reveals	SQL Concepts Used
-Which salespeople had at least one shipment?	
-SQL-Concept-Used---IN, EXISTS, JOIN
+  Which salespeople had at least one shipment?	
+  SQL-Concept-Used---IN, EXISTS, JOIN
 How many shipments did each salesperson make on Mondays?	
-Weekly shipment frequency	
-SQL-Concept-Used---GROUP BY, WEEKDAY()
+  Weekly shipment frequency	
+  SQL-Concept-Used---GROUP BY, WEEKDAY()
 Which product sold more —Milk Bars or Eclairs?	
-Product performance comparison	
-SQL-Concept-Used---JOIN, GROUP BY, SUM()
+  Product performance comparison	
+  SQL-Concept-Used---JOIN, GROUP BY, SUM()
 Which product sold the most boxes in early February 2022?	
-Early-month product trend	
-SQL-Concept-Used---BETWEEN, SUM()
+  Early-month product trend	
+  SQL-Concept-Used---BETWEEN, SUM()
 Who didn’t make any shipments in the first week of January?	
-Detects inactive salespeople	
-SQL-Concept-Used---LEFT JOIN, NOT IN
+  Detects inactive salespeople	
+  SQL-Concept-Used---LEFT JOIN, NOT IN
 Were there any shipments under 1000 customers and 1000 boxes?	
-Identifies smaller shipments	
-SQL-Concept-Used---HAVING
+  Identifies smaller shipments	
+  SQL-Concept-Used---HAVING
 How often did we ship more than 1000 boxes per month?
-Shipment volume trend
+ Shipment volume trend
  SQL-Concepet-used YEAR(), MONTH(), COUNT()
+
 **Part 2 — Power BI Dashboard (AwesomeDashboard.pbix)**
 The Power BI dashboard provides a clear, data-driven view of Awesome Chocolates’ sales operations.
 It highlights how products, sales teams, and regions contribute to overall revenue, helping leaders make informed decisions based on real performance patterns.
