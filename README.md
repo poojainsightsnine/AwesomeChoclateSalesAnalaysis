@@ -1,1 +1,1 @@
-# AwesomeChoclateSalesAnalaysis
+# AwesomeChocolateSalesAnalaysis
