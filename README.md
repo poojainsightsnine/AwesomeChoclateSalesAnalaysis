@@ -35,7 +35,7 @@ Awesome Choclates DashBoard <img width="884" height="496" alt="Screenshot 2025-1
 
 
 The Power BI dashboard provides a clear, data-driven view of Awesome Chocolates’ sales operations.
-It highlights how products, sales teams, and regions contribute to overall revenue, helping leaders make informed decisions based on real performance patterns.
+It highlights how products, sales teams, and regions contribute to overall revenue, helping leaders make informed decisions based on real performance patterns.last_updated is not synchronized with visuals.
 Key Insights
 
 1. Overall Sales Performance
