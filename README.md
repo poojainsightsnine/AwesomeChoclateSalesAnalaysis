@@ -6,9 +6,13 @@ Using SQL for data exploration and Power BI for visualization, the project highl
 Both the SQL analysis and Power BI dashboard are based on the same dataset, provided as CSV files.  
 
 The data was imported into SQL for query analysis and used directly in Power BI for visualization.
+
       1.Geo---GeoID,Geo,Region
+      
       2.People---Salesperson,SPID,Team,Location
+      
       3.Products---PID,Product, Category, Size,Cost_per_box
+      
       4.Sales--SPID, GeoID,PID ,SaleDate,Amount ,Customers,Boxes 
 
 **Part 1 — SQL Analysis**
@@ -27,22 +31,30 @@ The data was imported into SQL for query analysis and used directly in Power BI 
 
 
 **Part 2 — Power BI Dashboard (AwesomeDashboard.pbix)**  
+Awesome Choclates DashBoard <img width="884" height="496" alt="Screenshot 2025-11-03 004811" src="https://github.com/user-attachments/assets/a28a94de-0642-49bb-9ba6-ad4e38c85042" />
+
 
 The Power BI dashboard provides a clear, data-driven view of Awesome Chocolates’ sales operations.
 It highlights how products, sales teams, and regions contribute to overall revenue, helping leaders make informed decisions based on real performance patterns.
 Key Insights
+
 1. Overall Sales Performance
       -$43.6M Total Sales, 3M Boxes, and 8K Shipments recorded.
       - Sales trend remained strong through 2021, peaking early 2022 — showing a seasonal demand pattern.
       - LBS % (Lower Box Shipments) stands at 9.6%, meaning around one in ten shipments contained fewer boxes — a useful measure of shipment size efficiency.
+      - 
 2. Regional Insights
        - New Zealand, Canada, and India lead total sales, showing strong international presence.
        - Australia, UK, and USA show room for growth, suggesting potential marketing or distribution focus.
-3. Salesperson Performance
+   
+4. Salesperson Performance
        - Wilone O’Kiett, Van Tuxwell, and Roddy Speechley top the leaderboard with over $18M each.
        - The average salesperson handles about 120K boxes, showing balanced workload distribution.
-4. Team Contribution
+   
+6. Team Contribution
        - Delish team leads with 31.8% of total sales, followed by Juicies (28.8%) and Yummies (23.6%).
        - Replicating Delish’s strategies could improve other teams’ sales performance.
-5. Product Category Insights
+
+   
+8. Product Category Insights
        - Bars are the top-selling category, while Bites and Others maintain steady, loyal sales segments.
